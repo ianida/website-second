@@ -1,0 +1,72 @@
+.compare-header-container {
+    /*background-color: red; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.compare-header {
+    /*background-color: blue;*/
+    text-align: center;
+    padding: 5px;
+    width: 70%;
+}
+
+.compare-box-container {
+    /* background-color: greenyellow;*/
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.compare-box {
+    /*ackground-color: yellow;*/
+    width: 70%;
+}
+
+.compare-items {
+    /*background-color: aquamarine;*/
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.bike-table-container {
+    /*background-color: skyblue;*/
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.bike-table {
+    /* background-color: blueviolet;*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    padding: 10px;
+
+}
+
+select {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+select:hover {
+    box-shadow: 2px 2px 2px grey;
+}
+
+
+body {
+    background: rgb(230, 230, 230);
+}

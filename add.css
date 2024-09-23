@@ -1,0 +1,63 @@
+.addbikes {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.addbikes form {
+  background-color: silver;
+  width: 30%;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type=text],
+input[type=number] {
+  width: 100%;
+  border-radius: 6px;
+  padding: 6px;
+  border: 1px solid hsl(246, 25%, 79%);
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  border-radius: 6px;
+  padding: 6px;
+  border: 1px solid #268a29;
+}
+
+
+.data {
+
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+
+tr:nth-child(odd) {
+  background-color: #d6d6d6;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: #4CAF50;
+}
+
+th,
+td {
+  padding: 6px;
+  text-align: center;
+}
+
+td a {
+  background-color: #4CAF50;
+  padding: 5px 3px 3px 5px;
+  border-radius: 6px;
+}

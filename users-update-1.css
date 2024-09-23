@@ -1,0 +1,36 @@
+.update{
+    /*background-color: wheat;*/
+    display: flex;
+    justify-content: center;
+    padding: 20px;    
+}
+
+.update form{
+    /*background-color: chartreuse;*/
+    background-color: silver;
+    width: 30%;
+    padding: 20px;
+    border-radius: 6px;
+}
+select {
+    width: 90%;
+    border-radius: 6px;
+    padding: 6px;
+    border: 1px solid hsl(246, 25%, 79%);
+}
+
+
+input[type=text],
+input[type=email] {
+    width: 90%;
+    border-radius: 6px;
+    padding: 6px;
+    border: 1px solid hsl(246, 25%, 79%);
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    border-radius: 6px;
+    padding: 6px;
+    border: 1px solid #268a29;
+}
